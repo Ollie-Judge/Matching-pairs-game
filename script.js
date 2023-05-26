@@ -1,9 +1,9 @@
 let arrayOfLetters = ["A", "B", "C", "D", "E"];
 
 for (let i = arrayOfLetters.length - 1; i >= 1; i--) {
-  let j = Math.floor(Math.random() * (i + 1)); // 0 <= j <= i
-  let temp = arrayOfLetters[j];
-  arrayOfLetters[j] = arrayOfLetters[i];
+  let x = Math.floor(Math.random() * (i + 1)); // 0 <= x <= i
+  let temp = arrayOfLetters[x];
+  arrayOfLetters[x] = arrayOfLetters[i];
   arrayOfLetters[i] = temp;
 }
 
@@ -11,9 +11,9 @@ let randomArray1 = arrayOfLetters; // output of the 1st array
 console.log(randomArray1);
 
 for (let i = arrayOfLetters.length - 1; i >= 1; i--) {
-  let q = Math.floor(Math.random() * (i + 1)); // 0 <= q <= i
-  let temp = arrayOfLetters[q];
-  arrayOfLetters[q] = arrayOfLetters[i];
+  let x = Math.floor(Math.random() * (i + 1)); // 0 <= x <= i
+  let temp = arrayOfLetters[x];
+  arrayOfLetters[x] = arrayOfLetters[i];
   arrayOfLetters[i] = temp;
 }
 let randomArray2 = arrayOfLetters; // output of the 2nd array
@@ -63,21 +63,52 @@ function shuffle() {
   item10.innerHTML = `${randomArray2[4]}`;
 }
 
-let cardsToClick = document.getElementsByClassName("letters");
-console.log(cardsToClick);
+item1.addEventListener("click", function () {
+  let data = item1.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
 
-/*document
-  .getElementsByClassName("letters")
-  .addEventListener("click", function () {
-    alert("its working");
-  });*/
+item2.addEventListener("click", function () {
+  let data = item2.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
 
-/*
-for (let l in randomArray1) {
-  let newElement = document.getElementsByClassName("letters");
-  newElement.className = `${randomArray1[l]}`;
-  newElement.innerHTML = randomArray1[l];
-  document.body.appendChild(newElement);
-}
-console.log(randomArray1);
-*/
+item3.addEventListener("click", function () {
+  let data = item3.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
+
+item4.addEventListener("click", function () {
+  let data = item4.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
+
+item5.addEventListener("click", function () {
+  let data = item5.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
+
+item6.addEventListener("click", function () {
+  let data = item6.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
+
+item7.addEventListener("click", function () {
+  let data = item7.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
+
+item8.addEventListener("click", function () {
+  let data = item8.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
+
+item9.addEventListener("click", function () {
+  let data = item9.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
+
+item10.addEventListener("click", function () {
+  let data = item10.innerHTML;
+  console.log(`you have clicked ${data}`);
+});
