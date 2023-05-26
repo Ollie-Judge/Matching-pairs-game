@@ -63,8 +63,8 @@ function shuffle() {
   item10.innerHTML = `${randomArray2[4]}`;
 }
 
-//let cardsToClick = document.getElementsByClassName("letters");
-//console.log(cardsToClick);
+let cardsToClick = document.getElementsByClassName("letters");
+console.log(cardsToClick);
 
 /*document
   .getElementsByClassName("letters")
