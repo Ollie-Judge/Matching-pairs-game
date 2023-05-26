@@ -47,20 +47,20 @@ function shuffle() {
   item5.classList.add(`${randomArray1[4]}`);
   item5.innerHTML = `${randomArray1[4]}`;
 
-  item6.classList.add(`${randomArray2[5]}`);
-  item6.innerHTML = `${randomArray2[5]}`;
-  /*
-  item7.classList.add(`${randomArray2[6]}`);
-  item7.innerHTML = `${randomArray2[6]}`;
+  item6.classList.add(`${randomArray2[0]}`);
+  item6.innerHTML = `${randomArray2[0]}`;
 
-  item8.classList.add(`${randomArray2[7]}`);
-  item8.innerHTML = `${randomArray2[7]}`;
+  item7.classList.add(`${randomArray2[1]}`);
+  item7.innerHTML = `${randomArray2[1]}`;
 
-  item9.classList.add(`${randomArray2[8]}`);
-  item9.innerHTML = `${randomArray2[8]}`;
+  item8.classList.add(`${randomArray2[2]}`);
+  item8.innerHTML = `${randomArray2[2]}`;
 
-  item10.classList.add(`${randomArray2[9]}`);
-  item10.innerHTML = `${randomArray2[9]}`;*/
+  item9.classList.add(`${randomArray2[3]}`);
+  item9.innerHTML = `${randomArray2[3]}`;
+
+  item10.classList.add(`${randomArray2[4]}`);
+  item10.innerHTML = `${randomArray2[4]}`;
 }
 
 //let cardsToClick = document.getElementsByClassName("letters");
