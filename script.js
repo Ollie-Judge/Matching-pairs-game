@@ -30,6 +30,8 @@ let item8 = document.getElementById("item8");
 let item9 = document.getElementById("item9");
 let item10 = document.getElementById("item10");
 
+let chosenMessage = document.getElementById("userChosenOutput");
+
 function shuffle() {
   alert("shuffling now!");
   item1.classList.add(`${randomArray1[0]}`);
@@ -63,52 +65,64 @@ function shuffle() {
   item10.innerHTML = `${randomArray2[4]}`;
 }
 
+let data;
+
 item1.addEventListener("click", function () {
-  let data = item1.innerHTML;
+  data = item1.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
 
 item2.addEventListener("click", function () {
-  let data = item2.innerHTML;
+  data = item2.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
 
 item3.addEventListener("click", function () {
-  let data = item3.innerHTML;
+  data = item3.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
 
 item4.addEventListener("click", function () {
-  let data = item4.innerHTML;
+  data = item4.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
 
 item5.addEventListener("click", function () {
-  let data = item5.innerHTML;
+  data = item5.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
 
 item6.addEventListener("click", function () {
-  let data = item6.innerHTML;
+  data = item6.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
 
 item7.addEventListener("click", function () {
-  let data = item7.innerHTML;
+  data = item7.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
 
 item8.addEventListener("click", function () {
-  let data = item8.innerHTML;
+  data = item8.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
 
 item9.addEventListener("click", function () {
-  let data = item9.innerHTML;
+  data = item9.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
 
 item10.addEventListener("click", function () {
-  let data = item10.innerHTML;
+  data = item10.innerHTML;
+  chosenMessage.innerHTML = `You have selected the letter ${data}`;
   console.log(`you have clicked ${data}`);
 });
